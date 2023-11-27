@@ -1,0 +1,85 @@
+.container {
+    height: 429px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+.innerContainer {
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 429px;
+}
+
+.contentContainer {
+width: 914px;
+display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    /* position: relative; */
+    /* background-image: 'src/Assets/Images/istockphoto-1421547005-1024x1024.jpg';
+    background-repeat: no-repeat; */
+}
+
+.imageConatiner {
+    display: flex;
+    height: 429;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.img {
+    max-height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 600px;
+    color: #ffffff;
+}
+.subText {
+    font-size: 20;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0px;
+    max-width: 789px;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.buttonStyle {
+    display: flex;
+    width: 223px;
+    height: 59px;
+    background-color: #26328C;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonStyleTwo {
+    background-color:#C0378C;
+}
+
+.buttonText {
+    color: #ffffff;
+    font-size: 24;
+    font-weight: 600px;
+    margin: 0px
+}
